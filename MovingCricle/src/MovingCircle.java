@@ -21,13 +21,14 @@ public class MovingCircle extends JPanel implements ActionListener {
 	private double x = 1;
 	private double y = 0.0;
 	private double vx = 0.0;
-	private double vy = 3;
+	private double vy = 2.5;
 	private double dt = 0.005;
 	private double M = 1;
 	private double G = 11.79156655;
 	private double r = 1.0;
 	private double dMax = 0;
 	private double dMin = 10000000;
+	private String Idiot = "jiggered Ricus";
 	private long loop = 0;
 	private boolean direction = true;
 	private Timer timer;
